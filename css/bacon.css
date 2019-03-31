@@ -1,0 +1,36 @@
+/************** TAG SELECTORS ***************/
+
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+
+img:hover {
+  background-color: red;
+}
+
+
+/************* CLASS SELECTORS *************/
+
+.bacon {
+  background-color: green;
+}
+
+.sword {
+  background-color: red;
+}
+
+.cirlucar {
+  border-radius: 100%;
+}
+
+/************** ID Selectors *************/
+
+#heading {
+  color: blue;
+}
+
+#big {
+  font-size: 1000px;
+}

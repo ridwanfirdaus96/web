@@ -1,0 +1,316 @@
+/* Front-End Web Development */
+
+https://www.appbrewery.co/p/web-development-course-resources/
+google ip : http://216.58.210.46
+https://techcrunch.com/
+www.meetup.com
+
+/* Introduction to HTML
+
+Angular brackets
+heading html mdn
+https://devdocs.io/
+
+/* The Anatomy of an HTML Tag */
+
+Start tag<> --> Content --> End Tag</>
+<br> --> Self-closing tag
+<hr size="3" noshade> --> HTML element <hr> and HTML Attribute <size="3">
+hr = horizontal rule
+/* What is The HTML Boilerplate? */
+
+Learn about meta charset
+
+/* How to Structure Text in HTML */
+
+html -> head -> body -> close tag html
+em tag
+
+/* HTML List */
+
+/* HTML Image Elements */
+
+<img src="">
+
+Photobucket
+
+/* HTML Links and Anchor Tags */
+
+The Wiki Game
+a download href="" download
+Dash
+
+/* HTML Tables */
+
+http://www.pascalvangemert.nl/
+
+<tr> = Tables row
+<td> = Tables data
+<th> = Tables head
+<tbody> = Tables body
+<tfoot> = Tables foot
+
+css only fixed table headers
+
+/* HTML Forms */
+
+list input type
+emoji : window+;
+/* Forms in Practice - Create a Contact Me Form */
+
+<form class="" action="mailto:unikom@info.com" method="post">
+
+/* Introduction to CSS */
+
+ "That you can do with cascading style sheets to bring your web
+  site from the 90s into the current day"
+
+/* Inline CSS */
+semi colon
+colorhunt.co
+
+/* Internal CSS */
+curly brackets
+seanhalpin.io
+
+/* External CSS */
+
+/* How to Debug CSS Code
+
+2 Method :
+-Use Developer Tools Chrome (Elements)
+-Most important css from internal css until external css
+
+https://www.appbrewery.co/p/web-development-course-resources/
+
+/* The Anatomy of CSS Syntax */
+
+selector= who?
+{ property = what?
+value; = How?}
+
+/* CSS Selectors */
+
+emojipedia.org
+
+/* Classes vs Ids */
+
+<h1 id="heading">
+border-radius
+hover
+
+/* What are Favicons? */
+
+favicon.cc
+
+/* The Box Model of Website Styling */
+
+Margin is a buffer zone if you will between the current element and any others
+that are onscreen.
+
+http://markusvogl.com/web1/interactive_box_model/css_box_demo.html
+
+/* CSS Display Property */
+
+-- css --
+display: inline/inline-block;
+Display: block;
+Display: none;
+text-decoration: underline;
+visibility: hidden;
+
+/* CSS Static and Relative Positioning */
+
+1.Content is Everything
+2.Order Comes From Code
+3.Children Sit On Parents
+
+- Positioning: Static, Relative, absolute, Fixed
+position: relative
+- Coordinates: Top, Bottom, Left, Right
+
+/* absolute Positioning */
+
+/* Font Styling in Our Personal Site */
+
+https://www.cssfontstack.com
+https://fonts.google.com
+
+/* Adding Content to Our Website */
+
+lorem-ipsum.perbang.dk
+flaticon.com
+giphy.com
+https://www.shutterstock.com/search?searchterm=skills&search_source=base_search_form&language=en&page=1&sort=popular&image_type=vector&safe=true&sharedid=1607608627.1550025898&irgwc=1&utm_medium=Affiliate&utm_campaign=Freepik%20Company%2C%20S.L.&utm_source=39422&utm_term=1607608627.1550025898
+
+/* CSS Sizing */
+
+font-size= <number> em
+16px = 100% = 1em
+90 px = 6.625em
+font-size using em not changing font-size on website
+
+rem means ignore all of the parents settings for the font-size
+font-size = <number> rem
+
+/* CSS Float and Clear */
+
+margin: top right bottom left;
+float: left;
+line-height: <number>;
+clear = antifloat
+
+https://www.designrush.com/resources/css3buttongenerator
+
+/* Stylised Personal Site Solution Walkthrough */
+
+text-decoration: none / means delete underline text
+
+/* [Optional] Get More Practice HTML and CSS
+https://www.frontendmentor.io/
+
+/* What is Bootstrap */
+
+https://www.codeply.com
+
+/* Installing Bootstrap */
+
+/* Web Design 101 - Wireframing */
+
+http://dribbble.com
+http://ui-patterns.com/patterns
+http://sneakpeekit.com
+http://balsamiq.cloud
+
+/* The Bootstrap Navigation Bar */
+
+/* Bootstrap Grid Layout System */
+
+Learn about how to grid your layout
+-col-lg-2(6*2=12)(largest) use to laptop, col-md-3(3*4=12)(medium) use to tablet
+ and col-sm-12(12*1=12)(small) use to handphone
+
+/* Bootstrap Buttons & Font Awesome */
+
+http://fontawesome.com
+
+/* Styling Our Website Challange and Solutions */
+
+transgorm: rotate(90deg); /*Equal to rotate(45degrees) */
+
+/* Solution to Bootstrap Challange 1 */
+
+padding: <top bottom> <left right>
+
+/* The Bootstrap Carousel Part 1 */
+
+border-radius = circle image
+alt+key = powerful selection
+
+/* Boostrap Cards */
+
+search element --> copy element --> paste in codeply.com
+http://bootsnipp.com
+
+/* The CSS Z-Index and Stacking Order */
+
+z-Index: 1;
+
+/* Media Query Breakpoints */
+
+http://home.global.co.za/~lambsoft/home.html
+
+Pengujian Situs Mobile-Friendly = https://search.google.com/test/mobile-friendly
+
+Poin-poin penting:
+
+1. Do Nothing!
+2. Make a Separate Mobile site
+3. Make it Responsive!
+
+@media print
+
+Media Query = @media <type> <feature>
+
+example:
+
+<!-- if --> @media screen (min-width: 900px){
+//Change Something
+}
+
+viewport
+
+/* How to become a Better Programmer - Code Refactoring */
+
+Code Refactoring:
+
+1. Readability
+2. Modularity
+3. Efficiency
+4. Length
+
+/* Advanced CSS - Combining Selectors */
+
+Multiple Selector
+
+selector1, selector2 {
+
+}
+
+example:
+
+h1, p {
+color: red;
+}
+
+hierarchical selectors
+
+selector1 selector2 {
+
+}
+
+example:
+
+#title .container-fluid {
+padding-top: 3%;
+text-align: left;
+}
+
+div .title { // div is a parent and title is a child
+  color: red;
+}
+
+element. class vs element.class
+
+/* Advanced CSS - Selector Priority */
+
+class is higher priority than selector
+id is highest priority of all
+style is higher priority than Id and that is overriding all of our external.
+
+single custom class
+
+/* Introduction to Javascript */
+
+Brendan Eich is an American technologist and creator of
+the JavaScript programming language.
+
+ECMA International
+
+Interpreted vs compiled
+
+/* Javascript Alerts - Adding
+Behaviour to Websites */
+
+alert("Hello");
+alert = function
+hello = Message
+; = end
+
+/* JavaScript Variables */
+
+var myName = "Ridwan";
+
+var = keyword
+myName = Name
+"Ridwan" = Value
