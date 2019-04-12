@@ -314,3 +314,9 @@ var myName = "Ridwan";
 var = keyword
 myName = Name
 "Ridwan" = Value
+
+/* Functions Part 1 Challenge - The Karel Robot */
+
+Link:
+- https://stanford.edu/~cpiech/karel/ide.html
+- https://see.stanford.edu/Course/CS106A
